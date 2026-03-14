@@ -15,7 +15,7 @@
 * {
     font-family: "Iosevka Nerd Font";
     font-weight: bold;
-    font-size: 13px;
+    font-size: 12px;
 }
 
 window#waybar {
@@ -23,19 +23,19 @@ window#waybar {
 }
 
 window > box {
-    margin-top: 2px;
+    margin-top: 0px;
     margin-left: 10px;
     margin-right: 10px;
-    padding-left: 4px;
-    padding-right: 4px;
+    padding-left: 3px;
+    padding-right: 3px;
 }
 
 #window {
     background-color: @module-bg;
     color: @text-white;
     border-radius: 4px;
-    padding: 4px 12px 4px 8px;
-    margin: 2px 0;
+    padding: 2px 10px 2px 6px;
+    margin: 0;
 }
 
 window#waybar.empty #window {
@@ -43,22 +43,22 @@ window#waybar.empty #window {
 }
 
 .modules-left {
-    padding: 3px;
+    padding: 2px;
 }
 
 .modules-right {
-    padding: 3px;
+    padding: 2px;
 }
 
 .modules-center {
-    padding: 3px;
+    padding: 2px;
 }
 
 #workspaces {
     background-color: @module-bg;
     border-radius: 4px;
-    padding: 4px 4px 4px 6px;
-    margin: 2px 0;
+    padding: 2px 4px 2px 6px;
+    margin: 0;
 }
 
 #workspaces button {
@@ -99,41 +99,41 @@ window#waybar.empty #window {
 #custom-launcher {
     background-color: @module-bg;
     border-radius: 4px;
-    padding: 8px 8px 8px 4px;
-    margin: 2px 0;
+    padding: 6px 6px 6px 4px;
+    margin: 0;
     color: @workspaces-active;
-    font-size: 16px;
+    font-size: 14px;
 }
 
 #custom-power {
     background-color: @module-bg;
     color: @workspaces-active;
     border-radius: 4px;
-    padding: 8px 12px 8px 8px;
-    margin: 2px 0;
+    padding: 6px 10px 6px 6px;
+    margin: 0;
 }
 
 #cpu {
     background-color: @module-bg;
     border-radius: 4px 4px 4px 4px;
-    padding: 8px 8px 8px 20px;
-    margin: 2px 0;
+    padding: 6px 6px 6px 18px;
+    margin: 0;
     color: @cpu-text;
 }
 
 #memory {
     background-color: @module-bg;
     border-radius: 4px;
-    padding: 8px 8px 8px 20px;
-    margin: 2px 0;
+    padding: 6px 6px 6px 18px;
+    margin: 0;
     color: @cpu-text;
 }
 
 #wireplumber {
     background-color: @module-bg;
     border-radius: 4px;
-    padding: 8px 8px 8px 20px;
-    margin: 2px 0;
+    padding: 6px 6px 6px 18px;
+    margin: 0;
     color: @audio-text;
 }
 
@@ -144,8 +144,8 @@ window#waybar.empty #window {
 #clock {
     background-color: @module-bg;
     border-radius: 4px 4px 4px 4px;
-    padding: 8px 10px 10px 10px;
-    margin: 2px 0;
+    padding: 6px 8px 8px 8px;
+    margin: 0;
     color: @clock-text;
 }
 
@@ -153,16 +153,16 @@ window#waybar.empty #window {
     background-color: @module-bg;
     color: @text-default;
     border-radius: 4px;
-    padding: 8px;
-    margin: 2px 0;
+    padding: 6px;
+    margin: 0;
 }
 
 #bluetooth {
     background-color: @module-bg;
     color: @text-default;
     border-radius: 4px;
-    padding: 8px;
-    margin: 2px 0;
+    padding: 6px;
+    margin: 0;
 }
 
 #network.disabled {
@@ -172,22 +172,22 @@ window#waybar.empty #window {
 #tray {
     background-color: @module-bg;
     border-radius: 20px;
-    padding: 8px 12px 8px 12px;
-    margin: 2px 0;
+    padding: 6px 10px 6px 10px;
+    margin: 0;
 }
 
 #battery {
     background-color: @module-bg;
     color: @text-default;
     border-radius: 4px;
-    padding: 8px;
-    margin: 2px 0;
+    padding: 6px;
+    margin: 0;
 }
 
 #backlight {
     background-color: @module-bg;
     color: @text-default;
     border-radius: 4px;
-    padding: 8px;
-    margin: 2px 0;
+    padding: 6px;
+    margin: 0;
 }
