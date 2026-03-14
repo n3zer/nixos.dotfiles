@@ -34,6 +34,7 @@
   home.file.".config/wlogout".source = ./config/wlogout;
 
   home.packages = with pkgs; [
+    gh
     vscode
     obsidian
     ayugram-desktop
