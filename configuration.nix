@@ -72,15 +72,16 @@
 
   users.users.n3z = {
     isNormalUser = true;
-    extraGroups = [ "wheel" "network" ]; 
+    extraGroups = [ "wheel" "network" "docker" ]; 
     shell = pkgs.zsh;
     packages = with pkgs; [
       tree
     ];
   };
+  programs.steam.enable = true;
 
   programs.firefox.enable = true;
-
+  virtualisation.docker.enable = true;
   
   environment.systemPackages = with pkgs; [
     vim 

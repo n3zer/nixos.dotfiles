@@ -17,13 +17,11 @@
     };
   };
 
-
   programs.neovim = {
     enable = true;
     defaultEditor = true;
     plugins = with pkgs.vimPlugins; [
-      # + Rust
-      rustaceanvim  # или убери, если используешь только lspconfig
+      rustaceanvim  
     ];
   };
   
@@ -33,6 +31,7 @@
   home.file.".config/starship.toml".source = ./config/starship/starship.toml;
   home.file.".config/wlogout".source = ./config/wlogout;
 
+  
   home.packages = with pkgs; [
     gh
     vscode
@@ -50,6 +49,8 @@
     wlogout
     lsd
     bat
+    docker
+    docker-compose  
     # screenshot
     grim
     slurp
